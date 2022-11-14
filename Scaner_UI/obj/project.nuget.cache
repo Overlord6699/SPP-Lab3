@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ue59SCcnpINX2b8++hjjAB+DkLkjdU9u86ir7yABOGU0XQYsvj/IOC0FRXnO+CpK5whptNu6F6gY95pAtu+1tA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Илья\\source\\repos\\SPP Lab3\\Scaner_UI\\Scaner_UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Илья\\.nuget\\packages\\emoji.wpf\\0.3.3\\emoji.wpf.0.3.3.nupkg.sha512",
+    "C:\\Users\\Илья\\.nuget\\packages\\ookii.dialogs.wpf\\5.0.1\\ookii.dialogs.wpf.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

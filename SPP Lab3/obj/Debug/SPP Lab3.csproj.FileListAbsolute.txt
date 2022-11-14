@@ -1,0 +1,3 @@
+C:\Users\Илья\source\repos\SPP Lab3\SPP Lab3\obj\Debug\SPP Lab3.csproj.AssemblyReference.cache
+C:\Users\Илья\source\repos\SPP Lab3\SPP Lab3\obj\Debug\SPP Lab3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Илья\source\repos\SPP Lab3\SPP Lab3\obj\Debug\SPP Lab3.csproj.CoreCompileInputs.cache

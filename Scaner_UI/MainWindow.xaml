@@ -1,0 +1,46 @@
+﻿<Window x:Class="Scaner_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Scaner_UI"
+        xmlns:emoji="clr-namespace:Emoji.Wpf;assembly=Emoji.Wpf"
+        mc:Ignorable="d"
+        Title="SPP LAB3" Height="800" Width="600">
+    <Grid>
+        <TreeView ItemsSource="{Binding Path=FileDataModels}">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                    <StackPanel Orientation="Horizontal">
+                        <emoji:TextBlock Margin="0,0,8,0" Text="{Binding Emoji}" />
+                        <TextBlock Margin="0,0,8,0">
+                            <TextBlock.Text>
+                                <MultiBinding StringFormat="{}{0} ({1} байт, {2}%)">
+                                    <Binding Path="Name" />
+                                    <Binding Path="Size" />
+                                    <Binding Path="Percentage" />
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="TreeViewItem">
+                    <Setter Property="IsSelected" Value="{Binding IsSelected}" />
+                    <Setter Property="IsExpanded" Value="{Binding IsExpanded}" />
+                </Style>
+            </TreeView.ItemContainerStyle>
+
+        </TreeView>
+
+        <Button Command="{Binding StartCommand}" Content="Старт" FontSize="16" Width="80" Height="50"
+                Foreground="Black" Background="Green" Name="StartBtn" Margin="0 20 25 0" HorizontalAlignment="Right"
+                VerticalAlignment="Top">
+        </Button>
+        <Button Command="{Binding CancelCommand}" Content="Стоп" FontSize="16" Width="80" Height="50"
+                Foreground="Black" Background="OrangeRed" Name="CancelBtn" IsEnabled="False" Margin="0 75 25 0"
+                HorizontalAlignment="Right" VerticalAlignment="Top">
+        </Button>
+    </Grid>
+</Window>

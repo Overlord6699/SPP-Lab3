@@ -1,0 +1,185 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Emoji.Wpf/0.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Emoji.Wpf.dll": {},
+          "lib/netcoreapp3.1/Typography.GlyphLayout.dll": {},
+          "lib/netcoreapp3.1/Typography.OpenFont.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Emoji.Wpf.dll": {},
+          "lib/netcoreapp3.1/Typography.GlyphLayout.dll": {},
+          "lib/netcoreapp3.1/Typography.OpenFont.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Ookii.Dialogs.Wpf/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
+      "ScanerLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ScanerLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ScanerLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Emoji.Wpf/0.3.3": {
+      "sha512": "2LbqyW8v9Q731iEobd0Zq/OgssdLjlWx6CeVEt4ZPEL0KL/3ClAJPH2eq265BbtHwylolTcsna8sD6OWMruxig==",
+      "type": "package",
+      "path": "emoji.wpf/0.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "emoji.wpf.0.3.3.nupkg.sha512",
+        "emoji.wpf.nuspec",
+        "icon.png",
+        "lib/net40/Emoji.Wpf.dll",
+        "lib/net40/Typography.GlyphLayout.dll",
+        "lib/net40/Typography.OpenFont.dll",
+        "lib/netcoreapp3.1/Emoji.Wpf.dll",
+        "lib/netcoreapp3.1/Typography.GlyphLayout.dll",
+        "lib/netcoreapp3.1/Typography.OpenFont.dll"
+      ]
+    },
+    "Ookii.Dialogs.Wpf/5.0.1": {
+      "sha512": "iZNnZwqTpK0cfR0vkotncP1c025/PHlIdzc7iEKBYwhVv1V0zXp9/RT/O0kMhsmlwXqRxxbE4pdhfinbJXtjPg==",
+      "type": "package",
+      "path": "ookii.dialogs.wpf/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/icon.png",
+        "lib/net462/Ookii.Dialogs.Wpf.dll",
+        "lib/net462/Ookii.Dialogs.Wpf.pdb",
+        "lib/net462/Ookii.Dialogs.Wpf.xml",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.dll",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.pdb",
+        "lib/net5.0-windows7.0/Ookii.Dialogs.Wpf.xml",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.pdb",
+        "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.xml",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.dll",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.pdb",
+        "lib/netcoreapp3.1/Ookii.Dialogs.Wpf.xml",
+        "ookii.dialogs.wpf.5.0.1.nupkg.sha512",
+        "ookii.dialogs.wpf.nuspec"
+      ]
+    },
+    "ScanerLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ScanerLibrary/ScanerLibrary.csproj",
+      "msbuildProject": "../ScanerLibrary/ScanerLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Emoji.Wpf >= 0.3.3",
+      "Ookii.Dialogs.Wpf >= 5.0.1",
+      "ScanerLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Илья\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Илья\\source\\repos\\SPP Lab3\\Scaner_UI\\Scaner_UI.csproj",
+      "projectName": "Scaner_UI",
+      "projectPath": "C:\\Users\\Илья\\source\\repos\\SPP Lab3\\Scaner_UI\\Scaner_UI.csproj",
+      "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Илья\\source\\repos\\SPP Lab3\\Scaner_UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Илья\\source\\repos\\SPP Lab3\\ScanerLibrary\\ScanerLibrary.csproj": {
+              "projectPath": "C:\\Users\\Илья\\source\\repos\\SPP Lab3\\ScanerLibrary\\ScanerLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Emoji.Wpf": {
+            "target": "Package",
+            "version": "[0.3.3, )"
+          },
+          "Ookii.Dialogs.Wpf": {
+            "target": "Package",
+            "version": "[5.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Emoji.Wpf/0.3.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/Emoji.Wpf.dll": {
+            "assemblyVersion": "0.3.3.0",
+            "fileVersion": "0.3.3.0"
+          },
+          "lib/netcoreapp3.1/Typography.GlyphLayout.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp3.1/Typography.OpenFont.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Ookii.Dialogs.Wpf/5.0.1": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Ookii.Dialogs.Wpf.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Emoji.Wpf/0.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2LbqyW8v9Q731iEobd0Zq/OgssdLjlWx6CeVEt4ZPEL0KL/3ClAJPH2eq265BbtHwylolTcsna8sD6OWMruxig==",
+      "path": "emoji.wpf/0.3.3",
+      "hashPath": "emoji.wpf.0.3.3.nupkg.sha512"
+    },
+    "Ookii.Dialogs.Wpf/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iZNnZwqTpK0cfR0vkotncP1c025/PHlIdzc7iEKBYwhVv1V0zXp9/RT/O0kMhsmlwXqRxxbE4pdhfinbJXtjPg==",
+      "path": "ookii.dialogs.wpf/5.0.1",
+      "hashPath": "ookii.dialogs.wpf.5.0.1.nupkg.sha512"
+    }
+  }
+}

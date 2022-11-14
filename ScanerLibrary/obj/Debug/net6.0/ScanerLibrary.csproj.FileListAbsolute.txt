@@ -1,0 +1,12 @@
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\obj\Debug\net6.0\ScanerLibrary.csproj.AssemblyReference.cache
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\obj\Debug\net6.0\ScanerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\obj\Debug\net6.0\ScanerLibrary.AssemblyInfoInputs.cache
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\obj\Debug\net6.0\ScanerLibrary.AssemblyInfo.cs
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\obj\Debug\net6.0\ScanerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\bin\Debug\net6.0\ScanerLibrary.deps.json
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\bin\Debug\net6.0\ScanerLibrary.dll
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\bin\Debug\net6.0\ScanerLibrary.pdb
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\obj\Debug\net6.0\ScanerLibrary.dll
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\obj\Debug\net6.0\refint\ScanerLibrary.dll
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\obj\Debug\net6.0\ScanerLibrary.pdb
+C:\Users\Илья\source\repos\SPP Lab3\ScanerLibrary\obj\Debug\net6.0\ref\ScanerLibrary.dll
